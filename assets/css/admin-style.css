@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+.mmwea-header {
+    margin-top: 20px;
+}
+
+h1.mmwea-h1 {
+    color: #333;
+    font-size: 28px;
+    line-height: 42px;
+    margin: 0 0 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.mmwea-section h4 {
+    margin: 8px 0;
+}
+
+.mmwea-tabbing-box {
+    margin-bottom: 13px;
+}
+
+.mmwea-tabing-option {
+    display: inline-block;
+    width: 100%;
+}
+
+.mmwea-tabing-option form {
+    background-color: #dcdcde;
+    padding: 5px 20px;
+    margin-right: 20px;
+}
+
+.mmwea-section {
+    background-color: #fff;
+    padding: 20px 0 20px 25px;
+    margin: 10px 0;
+}
+
+.mmwea-section h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.mmwea-option-section .nav-tab {
+    margin-left: 0;
+    margin-right: 8px;
+    background: #fff;
+    padding: 8px 25px;
+    font-size: 16px;
+    color: #000;
+}
+
+.mmwea-option-section a.nav-tab.nav-tab-active,
+.mmwea-option-section a.nav-tab:hover {
+    background: #4b74e1;
+    color: #fff;
+    border-color: #4b74e1;
+    box-shadow: none;
+}
+
+/** CHeckbox Desgin */
+.mmwea-main-box .mmwea-switch {
+    position: relative;
+    display: inline-block;
+    width: 54px;
+    height: 22px;
+}
+
+.mmwea-main-box label.mmwea-switch {
+    cursor: pointer;
+}
+
+.mmwea-main-box input.mmwea-checkbox:checked+.mmwea-slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(36px);
+}
+
+.mmwea-main-box input:checked+.mmwea-slider {
+    background-color: #2196F3;
+}
+
+.mmwea-slider.mmwea-round {
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px rgb(0 0 0 / 20%);
+}
+
+.mmwea-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.mmwea-slider:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    left: 0;
+    bottom: 0px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.mmwea-main-box input[type="checkbox"].mmwea-checkbox {
+    display: none;
+}
+
+.mmwea-general-setting .select2.select2-container,
+.mmwea-product-single-setting .select2.select2-container {
+    width: 40% !important;
+}
+
+.mmwea-user-role-hide {
+    display: none;
+}
+
+.mmwea-error-border {
+    border: 2px Solid #f31212 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.wp-core-ui .mmwea-tabing-option .button-primary {
+    background: #4b74e1;
+    color: #ffffff;
+    padding: 3px 16px;
+    font-size: 14px;
+    border: none;
+    box-shadow: none;
+}
+
+input.mmwea-mini-input {
+    width: 60px;
+}
+
+/** Shortcode field CSS */
+.mmwea-product-single-setting .mmwea-shortcode {
+    width: 400px;
+    text-align: center;
+}
+
+.mmwea-cart-setting .mmwea-shortcode {
+    width: 200px;
+    text-align: center;
+}
+
+.mmwea-checkout-setting .mmwea-shortcode {
+    width: 220px;
+    text-align: center;
+}
+
+.mmwea-order-setting .mmwea-shortcode {
+    width: 320px;
+    text-align: center;
+}
+
+.mmwea-account-setting .mmwea-shortcode {
+    width: 350px;
+    text-align: center;
+}
+
+/** Select User Roles Radio CSS */
+.mmwea_user_role_option td label:not(:first-child) {
+    padding-left: 8px;
+}
+
+.mmwea_user_role_option td label input.mmwea-radio {
+    margin-right: 8px;
+}
